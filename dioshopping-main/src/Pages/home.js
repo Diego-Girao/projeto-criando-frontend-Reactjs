@@ -1,6 +1,6 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
-import { Paper, Grid, Typography, List, makeStyles } from '@material-ui/core/';
+import { Grid, Typography, List, makeStyles } from '@material-ui/core/';
 import Item from '../components/Item';
 import Card from '../components/Card';
 
@@ -9,18 +9,17 @@ import AccordionSummary from '@material-ui/core/AccordionSummary';
 import AccordionDetails from '@material-ui/core/AccordionDetails';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
-
 const useStyles = makeStyles((theme) => ({
     root: {
       flexGrow: 1,
       marginTop: '10px',
       alignItems:'center',
-      textAlign:'center'
+      textAlign:'center',
     },
     paper: {
         padding: theme.spacing(1),
         justifyContent: 'center',
-        background: '#00b300',
+        background: '#00a1ff',
         width: '90%',
         color: 'white'
     },   
