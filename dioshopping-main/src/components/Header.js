@@ -17,13 +17,14 @@ const useStyles = makeStyles((theme) => ({
       const classes = useStyles();
     return(
 
-        <Grid container direction="row" justify="space-between" alignItems="center" xs={12} className={classes.paper} >
+        <Grid container direction="row" alignItems="center" xs={12} className={classes.paper} >
             <Typography variant='h3'>
                 <p>
                 _.Dio SoccerShop
                 </p>
             </Typography>
                 <Button variant="contained" component={Link} to="/">Home</Button>
+                <Button variant="contained" component={Link} to="/lojas">Lojas</Button>
                 <Button variant="contained" component={Link} to="/contato">Contato</Button>
             <Cart />              
         </Grid>
