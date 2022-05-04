@@ -14,15 +14,15 @@ const useStyles = makeStyles((theme) => ({
       flexGrow: 1,
       marginTop: '10px',
       alignItems:'center',
-      textAlign:'center',
+      textAlign:'center'
     },
-    paper: {
+    accordion: {
         padding: theme.spacing(1),
         justifyContent: 'center',
         background: '#00a1ff',
         width: '90%',
         color: 'white'
-    },   
+    },
   }));
 
 const HomePage = () => {
@@ -58,15 +58,15 @@ const HomePage = () => {
         <Grid container spacing={3} className={classes.root}>
             <Grid item xs={3}>
 
-                <Accordion className={classes.paper}>
+                <Accordion className={classes.accordion}>
                 <AccordionSummary 
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography>
-              Categorias
-              </Typography>
+            <Typography>
+                Categorias
+            </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>

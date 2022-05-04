@@ -5,7 +5,7 @@ import Cart from './Cart';
   
 const useStyles = makeStyles((theme) => ({
     paper: {
-        padding: theme.spacing(1),
+        padding: theme.spacing(2),
         justifyContent: 'space-between',
         background: '#00a1ff',
         width: '100%',
