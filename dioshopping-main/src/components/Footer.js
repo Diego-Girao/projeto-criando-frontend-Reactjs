@@ -5,6 +5,8 @@ const useStyles = makeStyles(() => ({
     footer: {
         marginTop: "35px",
         marginBottom: "2px",
+        display: "flex",
+        justifyContent: "center"
     },
 }));
 
